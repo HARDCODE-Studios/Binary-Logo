@@ -1,0 +1,44 @@
+.back-round {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	cursor: crosshair;
+}
+.backRow {
+	width:100%;
+	height:1vw;
+	padding:0;
+	margin:0;
+	list-style: none;
+	display: flex;
+}
+.ball {
+	width:1vw;
+	height:1vw;
+	padding:0;
+	margin:0;
+	background: radial-gradient(#aaa,#444);
+	border-radius: 100%;
+	text-align: center;
+}
+.rollBall {
+	width:100%;
+	height:100%;
+	background: radial-gradient(rgba(0,0,0,0),rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)); 
+}
+.ball:hover {
+	color: #0f0;	
+	background: #000;
+}
+.ballActive {
+	background: #000;
+	color: #fff;
+}
+.rollBallActive {
+	background: radial-gradient(rgba(255,255,255,0),rgba(255,255,255,1),rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0)); 
+}

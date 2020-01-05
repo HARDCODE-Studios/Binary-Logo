@@ -1,0 +1,54 @@
+body {
+	background-color: #000;
+	margin: 0;
+}
+
+.binaryList {
+	background: rgba(68,68,68,0);
+	list-style: none;
+	padding: 0;
+	margin: 2vw 2vw 0vw 2vw;
+	border: 0.1vw solid #888;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	cursor: crosshair;
+	border-top-right-radius: 2vw 2vw;
+	border-bottom-left-radius: 2vw 2vw;
+	transition: background 8s ease-out;
+	-webkit-transition: background 8s ease-out;
+	-o-transition: background 8s ease-out;
+}
+.binaryList:hover{
+	background: rgba(68,68,68,1);
+}
+.binaryList:hover .binaryRow{
+	color: #000;
+}
+
+.binaryRow {
+	text-align: center;
+	display: table;
+	font-size: 1.82vw;
+	color: #030;
+	margin: 0vw 8.4vw;
+	font-family: monospace;
+	text-shadow: 0.1vw 0.1vw 0.1vw #000;
+	-webkit-transition: color 8s ease-out;
+	-o-transition: color 8s ease-out;
+}
+
+#consoleInput {
+	display: none;
+	position: absolute;
+	left: 81.1vw;
+	top: 0.2vw;
+	font-size: 15vw;
+	color: #020;
+	margin: 0vw 8.4vw;
+	font-family: monospace;
+	text-shadow: 0.1vw 0.1vw 0.1vw #000;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
